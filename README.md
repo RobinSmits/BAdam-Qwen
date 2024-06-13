@@ -2,7 +2,7 @@
 
 This repo contains some code and experiments with BAdam optimizer for full parameter efficient training.
 
-I've used the model Qwen1.5-1.8B-Chat for all the experiments. The vocabulary of the Qwen models is roughly 150K+ so it uses more GPU memory compared to the average LLM when doing full training. On my 16GB GPU it used roughly 11 - 12GB when training with the provided notebook.
+I've used the model Qwen1.5-1.8B-Chat for all the experiments. The vocabulary of the Qwen models is roughly 150K+ so it uses more GPU memory compared to the average LLM when doing full training. On my 16GB GPU it used roughly 10GB when training with BAdam with the provided notebook. Before training starts and the Qwen1.5-1.8B model is just loaded it uses roughly 4.6GB.
 
 ## Experiments
 
